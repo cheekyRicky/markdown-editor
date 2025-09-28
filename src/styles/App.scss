@@ -1,0 +1,20 @@
+@import '_variables';
+
+.editor-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    padding: 0px;
+    background: $lin-grad !important;
+}
+
+.header {
+    font-size: $font-size-lg;
+    text-align: left;
+    border-bottom: 1px solid #86918f;
+    padding: 10px;
+    color: $header-color;
+    font-weight: bold;
+    font-family: $font-roboto;
+}

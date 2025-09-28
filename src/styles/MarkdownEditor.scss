@@ -1,0 +1,25 @@
+@import '_variables';
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    border: 1px solid #86918f;
+    border-radius: 8px;
+}
+
+.editor-textarea {
+    flex: 1;
+    background: $lin-grad-dark !important;
+    color: #ffffff !important;
+    border-radius: $border-radius-sm !important;
+    font-size: $font-size-sm !important;
+    font-family: $font-courier !important;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 10px rgb(202, 65, 24) !important;
+        border: 1px solid rgb(23, 223, 26) !important;
+    }
+}
