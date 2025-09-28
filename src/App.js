@@ -17,8 +17,8 @@ const App = () => {
           <MarkdownEditor markdown={markdown} setMarkdown={setMarkdown} />
         </Col>
 
-        <Col md={6} className="preview-column">
-          <div className="header">Preview</div>
+        <Col md={7} className="preview-column">
+          <div className="header preview-header">Preview</div>
           <Preview id="preview" markdown={markdown} />
         </Col>
       </Row>

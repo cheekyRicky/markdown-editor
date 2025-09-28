@@ -1,6 +1,7 @@
 import React from 'react';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
+import '../styles/Preview.scss';
 
 export default function Preview({ markdown }) {
   const createMarkup = () => {

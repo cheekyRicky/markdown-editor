@@ -12,7 +12,7 @@
 .header {
     font-size: $font-size-lg;
     text-align: left;
-    border-bottom: 1px solid #86918f;
+    border-bottom: $border-green-light;
     padding: 10px;
     color: $header-color;
     font-weight: bold;
