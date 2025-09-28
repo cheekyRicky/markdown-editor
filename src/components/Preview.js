@@ -5,7 +5,8 @@ import '../styles/Preview.scss';
 
 export default function Preview({ markdown }) {
   const createMarkup = () => {
-    const rawHtml = marked(markdown, { breaks: true });
+    const processedMarkdown = markdown.replace(/%PUBLIC_URL%/g, process.env.PUBLIC_URL);
+    const rawHtml = marked(processedMarkdown, { breaks: true });
     return { __html: DOMPurify.sanitize(rawHtml) };
   };
 
