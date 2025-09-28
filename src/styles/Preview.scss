@@ -3,4 +3,29 @@
 .preview {
     padding: 10px !important;
     margin: 10px !important;
+
+    code {
+        background-color: #cdd9e2 !important;
+        padding: 2px 4px !important;
+        border-radius: $border-radius-sm !important;
+        font-family: $font-courier !important;
+        font-size: $font-size-sm !important;
+    }
+
+    pre code {
+        background-color: #15284e !important;
+        color: #ffffff !important;
+        display: block !important;
+        padding: 5px !important;
+        overflow-x: auto !important;
+        font-weight: $font-weight-bold !important;
+    }
+
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        border-radius: $border-radius !important;
+        box-shadow: $box-shadow-md !important;
+        margin: 10px 0 !important;
+    }
 }

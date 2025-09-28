@@ -9,5 +9,10 @@ export default function Preview({ markdown }) {
     return { __html: DOMPurify.sanitize(rawHtml) };
   };
 
-  return <div className="preview" dangerouslySetInnerHTML={createMarkup()} />;
+  return (
+  <div 
+  className="preview"
+  id="preview" 
+  dangerouslySetInnerHTML={createMarkup()} />
+  );
 }
