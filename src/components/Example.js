@@ -35,7 +35,7 @@ We can also use an inline code snippet \`const yourThoughts = "This is awesome";
 Links work as well: [Explore Markdown Syntax](https://www.markdownguide.org/basic-syntax/ "Here You can find more info on basic syntax")
 
 And here's an image:
-![Sample Image](/images/bugs-bunny-img.jpg)
+![Sample Image](%PUBLIC_URL%/images/bugs-bunny-img.jpg)
 `;
 
 export default Example;
