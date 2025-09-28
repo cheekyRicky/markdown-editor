@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cheekyRicky/markdown-editor.git/static/css/main.f126e0f9.css",
+    "main.js": "/cheekyRicky/markdown-editor.git/static/js/main.386c4026.js",
+    "index.html": "/cheekyRicky/markdown-editor.git/index.html",
+    "main.f126e0f9.css.map": "/cheekyRicky/markdown-editor.git/static/css/main.f126e0f9.css.map",
+    "main.386c4026.js.map": "/cheekyRicky/markdown-editor.git/static/js/main.386c4026.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f126e0f9.css",
+    "static/js/main.386c4026.js"
+  ]
+}
