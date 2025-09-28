@@ -2,7 +2,7 @@
   "name": "markdown-editor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/cheekyRicky/markdown-editor.git",
+  "homepage": "https://cheekyricky.github.io/markdown-editor",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
